@@ -16,8 +16,6 @@ const data = [
 const CustomDot = ({ ...rest }) => {
     const {
       onClick,
-      onMove,
-      index,
       active,
     } = rest;
     return (

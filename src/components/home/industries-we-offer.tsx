@@ -81,7 +81,7 @@ const IndustriesWeOffer = () => {
     return (
         <div className='bg-[#1A1F65] flex flex-col gap-8 p-16 text-white'>
             <h2 className='text-4xl font-bold'>Industries that we serve</h2>
-            <p className='text-lg font-medium'>We achieved the business transformation objectives by utilising advanced technology to produce exceptional results. <br /> Working with clients from around the world has aided us in developing a comprehensive approach and knowledge base to meet a wide range of industries' unique requirements.</p>
+            <p className='text-lg font-medium'>We achieved the business transformation objectives by utilising advanced technology to produce exceptional results. <br /> Working with clients from around the world has aided us in developing a comprehensive approach and knowledge base to meet a wide range of industries&apos; unique requirements.</p>
             <div className='grid grid-cols-4 gap-5'>
                 {
                     data.map((item, i) => (
