@@ -4,11 +4,11 @@ import Carousel from "react-multi-carousel";
 
 const data = [
     {
-        url: "https://www.dwellfox.com/Assets/Videos/logic.mp4",
+        url: "/videos/logic.mp4",
         desc: <>Dwellfox for introducing an ERA <br /> of digital revolution</>
     },
     {
-        url: "https://www.dwellfox.com/Assets/Videos/info.mp4",
+        url: "videos/info.mp4",
         desc: <>Accelerating cloud adoption for <br /> inclusive business growth</>
     },
 ]
@@ -83,7 +83,7 @@ const CustomCarousel = () => {
                 data.map((item, i) => {
                     return (
                         <div className='h-full w-full m-auto relative' key={i}>
-                            <video src={item.url} autoPlay loop typeof="video/mp4"></video>
+                            <video src={item.url} autoPlay loop></video>
                             <div className='absolute top-0 h-[100%] w-full text-white flex items-center justify-center flex-col gap-4'>
                                 <h2 className='text-4xl font-bold text-center'>{item.desc}</h2>
                                 <div className='flex gap-4 items-center px-5 py-2 cursor-pointer w-fit font-medium hover:text-[#1A1F65] hover:bg-white hover:shadow-lg transition-all text-white rounded-2xl'>
