@@ -4,7 +4,7 @@ const RelatedBlogs = () => {
     return (
         <div className='p-16 flex flex-col gap-8'>
             <h2 className='text-4xl font-bold text-center'><span className='text-[#1A1F65]'>Related Blogs </span></h2>
-            <div className='flex gap-8 justify-between'>
+            <div className='grid grid-cols-1 lg:grid-cols-3 gap-8 mx-auto'>
                 <div className="max-w-sm rounded overflow-hidden shadow-lg">
                     <img className="w-full" src="https://www.dwellfox.com/Assets/blog/b5.jpg" alt="Sunset in the mountains" />
                     <div className="px-4 pt-4">

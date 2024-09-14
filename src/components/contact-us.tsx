@@ -3,11 +3,11 @@ import React from 'react'
 const ContactUs = () => {
     return (
         <div className='bg-white p-16'>
-            <div className='flex gap-8 shadow-2xl border-t-[1px] rounded-2xl'>
+            <div className='flex gap-8 shadow-2xl border-t-[1px] rounded-2xl flex-col lg:flex-row'>
                 <div className='py-4 object-cover'>
                     <img src="https://www.dwellfox.com/Assets/home/formhomeimg.png" alt="" />
                 </div>
-                <div className='flex-1 py-4'>
+                <div className='flex-1 py-4 px-3'>
                     <h2 className='text-3xl font-bold text-center text-[#1A1F65]'> Need IT support? Connect with us.</h2>
                     <form className="mx-auto max-w-lg mt-8 flex flex-col gap-8">
                         <div className="">

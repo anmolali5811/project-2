@@ -5,7 +5,7 @@ import Carousel from "react-multi-carousel";
 const data = [
     {
         url: "/videos/logic.mp4",
-        desc: <>Dwellfox for introducing an ERA <br /> of digital revolution</>
+        desc: <>VertexElite for introducing an ERA <br /> of digital revolution</>
     },
     {
         url: "videos/info.mp4",

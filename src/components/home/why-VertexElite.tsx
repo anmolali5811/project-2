@@ -3,7 +3,7 @@ import { AiOutlineTeam } from 'react-icons/ai'
 
 const WhyVertexElite = () => {
     return (
-        <div className='flex gap-16 bg-[#FFFBEB] items-center p-16'>
+        <div className='flex gap-16 bg-[#FFFBEB] items-center p-16 flex-col lg:flex-row'>
             <div className='flex w-full flex-col  gap-8 flex-1'>
                 <h2 className='text-4xl font-bold text-[#211E6D]'>
                     Why VertexElite ?
@@ -25,7 +25,7 @@ const WhyVertexElite = () => {
                             Expert Team
                         </h2>
                         <p className='text-sm'>
-                            At Dwellfox, we believe in quality, so we have a more comprehensive, versatile, and skilled team that will go above and beyond to meet the needs of our clients.
+                            At VirtexElite, we believe in quality, so we have a more comprehensive, versatile, and skilled team that will go above and beyond to meet the needs of our clients.
                         </p>
                     </div>
                 </div>

@@ -9,7 +9,7 @@ const Navbar = () => {
         <header className='sticky top-0 z-40 border-b-[1px] border-gray-300 shadow bg-white h-14'>
             <nav className='flex justify-between items-center py-1 px-16 mx-auto bg-white h-full'>
                 <div className=''>
-                    <a href="/" className='text-2xl font-bold text-[#211E6D]'>VertexElite</a>
+                    <Link href="/" className='text-2xl font-bold text-[#211E6D]'>VertexElite</Link>
                 </div>
                 <div className='flex gap-6'>
                     <div className={`px-3 py-2 cursor-pointer font-semibold ${pathname === "/about-us" ? "text-[#211E6D] border-b-4 border-b-[#211E6D]" : ""}`}>

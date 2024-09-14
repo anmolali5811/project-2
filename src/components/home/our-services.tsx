@@ -63,15 +63,15 @@ const OurServices = () => {
         <div className='bg-[#1A1A28] flex flex-col gap-8 p-16 text-white'>
             <h2 className='text-4xl font-medium'>How our services benefit businesses</h2>
             <p className='text-lg'>We created professional services to assist businesses develop enormously and stand out in the market.</p>
-            <div className='flex gap-16'>
-                <div className='flex flex-col gap-3 w-[35%]'>
+            <div className='flex gap-16 lg:flex-row flex-col'>
+                <div className='flex flex-col gap-3 w-full lg:w-[35%]'>
                     {
                         data.map((item, i) => (
                             <p onClick={() => setIndex(i)} key={i} className={`py-3 cursor-pointer border-b w-full mb-5 ${i === index ? "text-2xl font-semibold" : "text-lg"} `}>{item.heading}</p>
                         ))
                     }
                 </div>
-                <div className='w-[65%] bg-[#193A47] rounded-l-2xl p-8 gap-5 flex flex-col text-md'>
+                <div className='w-full lg:w-[65%] bg-[#193A47] rounded-l-2xl p-8 gap-5 flex flex-col text-md'>
                     <h3 className=''>
                         {data[index].para}
                     </h3>
